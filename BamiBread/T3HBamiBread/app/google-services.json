@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "309722053122",
+    "firebase_url": "https://bami-bread.firebaseio.com",
+    "project_id": "bami-bread",
+    "storage_bucket": "bami-bread.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309722053122:android:a20d2968e2814f6e",
+        "android_client_info": {
+          "package_name": "com.t3h.bamibread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309722053122-mcn85e5h28nhqpennaiip75ar2dlovmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t3h.bamibread",
+            "certificate_hash": "7fb53eb901ee6941c5693ca1aebf0ff26135809f"
+          }
+        },
+        {
+          "client_id": "309722053122-oaeoqhcplebm54a1d7tbgv33ekfoj3bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7IZ2An5fQthp5KDc-f0Aof9bMjZEzNyA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309722053122-oaeoqhcplebm54a1d7tbgv33ekfoj3bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

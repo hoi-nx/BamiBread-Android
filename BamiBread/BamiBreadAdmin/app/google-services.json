@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "584318239496",
+    "firebase_url": "https://bami-bread-ha-noi.firebaseio.com",
+    "project_id": "bami-bread-ha-noi",
+    "storage_bucket": "bami-bread-ha-noi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584318239496:android:a20d2968e2814f6e",
+        "android_client_info": {
+          "package_name": "com.t3h.bamibread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584318239496-s91s978k2eb3le073489qkr57i0pim7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t3h.bamibread",
+            "certificate_hash": "646f24f088c8b539ca7988d271cb19e7ccb62028"
+          }
+        },
+        {
+          "client_id": "584318239496-ossj5a65k5qisu92m8qb5io4p7nasork.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0ZldI3NZFuBqRCaXlnA2ZrB1x3AQqkcE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584318239496-ossj5a65k5qisu92m8qb5io4p7nasork.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

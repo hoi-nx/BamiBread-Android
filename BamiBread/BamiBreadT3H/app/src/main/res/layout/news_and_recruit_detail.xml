@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:expandedTitleMarginEnd="@dimen/article_keylines"
+            app:expandedTitleMarginStart="@dimen/md_keylines">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/mtoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/demo"
+                android:id="@+id/img_news"
+                android:fitsSystemWindows="true"/>
+
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:src="@drawable/ic_action_favorite"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|right|end"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bánh Mì Hội An"
+                    android:textColor="#F44336"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/txt_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:text="Người con gái ta thương, gục khóc trên vai ta.
+Giọt nước mắt em rơi, bỗng xát con tim ta.
+Ta thương em nhiều hơn chính bản thân, giả vờ cứng rắn buông lời trách móc.
+Đôi vai thinh lặng nghe tiếng thở than, ta sợ mình cũng làm ướt lưng em.
+
+Chorus:
+Ta đâu dám nhìn thẳng vào đôi mắt em, đôi mắt sau lưng người cũng nhoè đi vì gió.
+Em hãy cứ khóc hết những điều dở dang, mạnh mẽ lên nào, mạnh mẽ lên nào, mạnh mẽ lên nào.
+Ta chỉ muốn bước đến xiết thật chặt em, em có nghe trái tim này như nghẹt thở.
+Nếu muốn khóc cứ đến bên ta những lúc yếu lòng.
+Ta thương em, thương em, ta thương em nhiều. Và ta xót cho ta.
+
+Verse 2:
+Người con gái ta thương, kề sát vai bên ai.
+Tựa như phía không nhau, những giấc mơ trôi mau
+Ta mong em hằn lên những tổn thương, lại chạy đến khóc nơi này em nhé.
+Con tim ta dường như ích kỉ hơn, ta sợ mình lại đánh mất em. " />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

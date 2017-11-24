@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">T3HBamiBread</string>
+    <string name="facebook_app_id">342455439514173</string>
+    <string name="key_app_facebook">1ecc0c4e804c8c660ed8bfc26828bdc9</string>
+    <string name="token_facebook">342455439514173|KpuWiOxtcTtWaxcxYUJguEZj8VY</string>
+    <string name="key_google_map">AIzaSyAuo4r0dR7hIf4yJMIWyKNr0Oepy2h3r-g</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

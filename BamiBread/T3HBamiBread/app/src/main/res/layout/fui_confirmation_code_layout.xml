@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the 6-digit code we sent to"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/txt_1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_1"
+            android:text="0988872930"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/txt_phone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_below="@+id/txt_phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="code here"
+            android:id="@+id/confirmation_code"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit_confirmation_code"
+           android:layout_below="@+id/confirmation_code"
+            android:text="Continue" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

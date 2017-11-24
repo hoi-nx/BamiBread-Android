@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:heart="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:src="@drawable/logo_top"
+    android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn cần điền đầy đủ các thông tin sau đây"
+        android:textSize="15dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textColor="#D50000"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_back"
+        android:layout_marginTop="10dp"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ và tên"
+            android:id="@+id/edt_name_user"
+            android:drawableLeft="@drawable/ic_action_person"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_back"
+
+        android:layout_marginTop="10dp">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/edt_gmail"
+            android:drawableLeft="@drawable/ic_action_exit"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_back">
+       <com.t3h.bamibread.customview.PasswordEditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Pass"
+           android:id="@+id/edt_pass"
+           heart:useStrike="true"
+           heart:useValidate="true"
+           android:drawableLeft="@drawable/ic_action_exit"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_back">
+        <com.t3h.bamibread.customview.PasswordEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lại mật khẩu"
+            android:id="@+id/edt_pass_confirm"
+            heart:useStrike="true"
+            android:drawableLeft="@drawable/ic_action_exit"
+           />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btnRegister"
+        android:textColor="#FFFF"
+        android:background="@drawable/drawable_shape"/>
+
+</LinearLayout>

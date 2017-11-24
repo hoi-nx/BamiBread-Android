@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BamiBread</string>
+    <string name="facebook_app_id">123791608266521</string>
+    <string name="key_app_facebook">691068bf6b8c2ee83143e6ed50c24160</string>
+    <string name="tooken">123791608266521|jFw5G4XFwGHKIfTRl8-M-bJtOLE</string>
+    <string name="key_google_map">AIzaSyAuo4r0dR7hIf4yJMIWyKNr0Oepy2h3r-g</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

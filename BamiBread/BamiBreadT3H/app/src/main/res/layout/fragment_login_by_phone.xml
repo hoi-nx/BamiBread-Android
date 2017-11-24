@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="150dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_icon_login"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_app"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/txt_view_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:padding="10dp"
+        android:text="Please! Give me you phone"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/img_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_phone"
+        android:layout_below="@+id/txt_view_phone"
+        android:layout_toLeftOf="@+id/edt_phone_number"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:id="@+id/edt_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_view_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/edittext_bck"
+        android:ems="10"
+        android:hint="Phone here"
+        android:inputType="phone"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/btn_send_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edt_phone_number"
+        android:layout_alignLeft="@+id/edt_phone_number"
+        android:layout_alignRight="@+id/edt_phone_number"
+        android:layout_alignStart="@+id/edt_phone_number"
+        android:layout_below="@+id/edt_phone_number"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/layout_back"
+        android:text="Send OTP" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_verified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:background="#4FC1E9"
+            android:padding="10dp"
+            android:text="Enter the 6-digit code we sent to"
+            android:textColor="#000"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edt_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txt_verified"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/edittext_bck"
+            android:ems="10"
+            android:hint="OTP Here ..."
+            android:inputType="phone"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_otp_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edt_otp"
+            android:layout_alignLeft="@+id/edt_otp"
+            android:layout_alignRight="@+id/edt_otp"
+            android:layout_alignStart="@+id/edt_otp"
+            android:layout_below="@+id/edt_otp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/layout_back"
+            android:text="Verify"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>

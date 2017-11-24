@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homepage"
+        android:icon="@drawable/ic_action_home"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/introduce"
+        android:icon="@drawable/my_computer"
+        android:title="Giới thiệu" />
+    <item
+        android:id="@+id/recruit"
+        android:icon="@drawable/ic_action_recruitment"
+        android:title="Tuyển dụng" />
+    <item
+        android:id="@+id/my_message"
+        android:icon="@drawable/ic_action_mail"
+        android:title="Hộp thư đến" />
+    <item
+        android:icon="@drawable/ic_action_store"
+        android:title="Nhà Hàng"
+        android:id="@+id/bamibread"
+        />
+    <item
+        android:icon="@drawable/ic_action_hotline"
+        android:title="Gọi hotline Giao Hàng"
+        android:id="@+id/call_hotline"/>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:icon="@drawable/ic_action_setting"
+                android:title="Setting"
+                android:id="@+id/setting_app"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/exitUser"
+        android:icon="@drawable/ic_action_exit"
+        android:title="Đăng Xuất" />
+</menu>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="15dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_bami"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/demobanhmi"
+        android:layout_margin="8dp"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_delete"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/img_delete"
+        android:layout_marginRight="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_bami"
+        android:layout_toLeftOf="@+id/img_delete"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/txt_name_bami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bánh Mì Gà nướng xả"
+            android:textColor="#F44336"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25000đ"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/count_down"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:background="@drawable/layout_back"
+                android:text="-"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/numberof_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="30dp"
+                android:textColor="#D50000"
+                android:inputType="number"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/count_up"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:background="@drawable/layout_back"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
