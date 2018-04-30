@@ -114,7 +114,7 @@ public class CustomPopup extends Dialog implements IList, IViewMain, AdapterView
             dismiss();
         });
         findViewById(R.id.btnYes).setOnClickListener(view -> {
-            databaseReference = FirebaseDatabase.getInstance().getReference();
+                databaseReference = FirebaseDatabase.getInstance().getReference();
             if (edtAddress.getText().toString().equals("") || edtPhone.getText().toString().equals("") || edtAddress.getText().toString().equals("")) {
                 Toast.makeText(getContext(), "Không được để trống thông tin", Toast.LENGTH_LONG).show();
                 return;
